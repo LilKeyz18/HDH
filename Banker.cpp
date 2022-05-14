@@ -5,19 +5,19 @@ void main()
 	int n, r, i, j, k;
 	 n = 5;
 	 r = 4;
-	int alloc[5][4] = { { 0, 0, 1,2 }, // P0 // This is Allocation Matrix 
+	int alloc[5][4] = { { 0, 0, 1,2 }, // P0 //Allocation
 						{ 1, 0, 0,0 }, // P1 
 						{ 1, 3, 5,4 }, // P2 
 						{ 0, 6, 3,2 }, // P3 
 						{ 0, 0, 1,4 } }; // P4 
 
-	int max[5][4] = { { 0, 0, 1,2 }, // P0 // MAX Matrix 
+	int max[5][4] = { { 0, 0, 1,2 }, // P0 // MAX 
 					{ 1, 7, 5,0}, // P1 
 					{ 2, 3, 5,6 }, // P2 
 					{ 0, 6, 5,2 }, // P3 
 					{ 0, 6, 5 ,6} }; // P4 
 
-	int avail[4] = { 1, 5, 2,0 }; // These are Available Resources 
+	int avail[4] = { 1, 5, 2,0 }; //avaible
 
 	int f[5], vong[5], ind = 0;
 	for (k = 0; k < 5; k++)
